@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>MoneyGram</title>
+</head>
+<body>
+    <section>
+        <form class="money__form">
+            <input 
+                class="money__input"
+                type="number"
+                placeholder="Mablag'ni kirting...!"
+            />
+
+            <select class="money__select" name="Valyuta">
+                <option value="usd">USD</option>
+                <option value="rubl">RUBL</option>
+                <option value="euro">EURO</option>
+            </select>
+
+            <div class="money__result"></div>
+
+            <button class="money__button" type="submit">Bosing!</button>
+        </form>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

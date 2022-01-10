@@ -1,0 +1,21 @@
+
+.money__input {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.money__result {
+    margin-bottom: 5px;
+    width: 156px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.money__button {
+    width: 100px;
+    padding: 5px 0;
+    background: #295091;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
